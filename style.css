@@ -117,6 +117,14 @@ html {
   background-size: cover;
   background-position: center;
 }
+
+@media (max-width: 768px) {
+  .parallax {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fefcf5;
+  }
+}
 .curvas-container {
   position: relative;
   height: 550px; 
